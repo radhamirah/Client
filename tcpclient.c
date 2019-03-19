@@ -18,7 +18,7 @@ int main()
   
   int connection_status = connect(network_socket, (struct sockaddr *) &server_address, sizeof(server_address));
   //check for error with connection
-  If (connection_status == -1);
+  if (connection_status == -1);
   {
     printf("error") ;
   }
